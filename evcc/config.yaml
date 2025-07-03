@@ -17,6 +17,7 @@ boot: auto
 legacy: true
 stage: stable
 ingress: true
+full_access: true
 ingress_port: 7070
 init: false
 watchdog: http://[HOST]:[PORT:7070]/
@@ -55,6 +56,4 @@ ports_description:
   8887/tcp: "OCPP web socket"
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
-devices:
- - /dev/ttyAMA1
- - /dev/ttyS0
+

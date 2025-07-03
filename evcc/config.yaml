@@ -25,7 +25,7 @@ image: evcc/evcc
 options: 
   config_file: /config/evcc.yaml
   sqlite_file: /data/evcc.db
-  device: /dev/ttyS0
+  device: /dev/ttyS1
 schema:
   config_file: str
   sqlite_file: str

@@ -56,5 +56,5 @@ ports_description:
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
 devices:
- - /dev/ttyAMA0
+ - /dev/ttyAMA1
  - /dev/ttyS0

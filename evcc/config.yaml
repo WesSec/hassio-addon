@@ -55,3 +55,6 @@ ports_description:
   8887/tcp: "OCPP web socket"
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
+devices:
+ - /dev/ttyAMA0
+ - /dev/ttyS0
